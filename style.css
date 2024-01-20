@@ -420,7 +420,10 @@ img{
 .about_description{
     text-align: center;
     margin-bottom:var(--mb-2-5);
-    padding: 0 17rem 0 17rem;
+}
+
+.about_data p{
+    padding: 0 15rem 0 15rem;
     
 }
 
@@ -1279,9 +1282,22 @@ color: var(--first-color);
     
 }
 
-@media screen and (max-width:1022px){
-    .about_description{
 
+@media screen and (max-width: 1520px) {
+    .about_data p{
+        padding: 0 8rem 0 8rem;
+        
+    }
+    
+}
+@media screen and (max-width:1022px){
+    /* .about_description{
+
+        padding: 0 1rem 0 1rem;
+        
+    } */
+
+    .about_data p{
         padding: 0 1rem 0 1rem;
         
     }
