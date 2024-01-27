@@ -318,7 +318,7 @@ img{
 
 .home_blob{
     width: 200px;
-    fill:#FFF;
+    fill:var(--body-color);
 }
 
 .home_blob-img{
