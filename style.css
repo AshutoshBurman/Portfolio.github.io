@@ -763,7 +763,7 @@ color: var(--first-color);
     position: relative;
 }
 
-.certificate_column1:hover{
+/* .certificate_column1:hover{
     transform: scale(1.5);
     z-index: 5;
     padding-left: 1.5rem;
@@ -779,7 +779,7 @@ color: var(--first-color);
 .certificate_column3:hover{
     transform: scale(1.5);
     z-index: 5;
-}
+} */
 
 
 .certificate_row::-webkit-scrollbar {
@@ -818,10 +818,10 @@ color: var(--first-color);
     
 }
 
-.certificate_column4:hover{
+/* .certificate_column4:hover{
     transform: scale(1.2);
     z-index: 5;
-}
+} */
 
 
 /* Clear floats after the columns */
