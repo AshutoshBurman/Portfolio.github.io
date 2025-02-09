@@ -34,10 +34,10 @@ const SkillsPage = () => {
         {isMobile? (
             <div className="flex select-none flex-col justify-center items-center">
                 {/* header */}
-                <div id='skills' className='scroll-mt-20 mt-40 mb-20'>
+                <div id='skills' className='scroll-mt-20 mt-20'>
                     <Header text="SKILLS" />
                 </div>               
-                <div className=" grid grid-rows-8 mt-14 mb-40 justify-center gap-2 grid-flow-col">
+                <div className=" grid grid-rows-8 mt-14 justify-center gap-2 grid-flow-col">
                     <div className=" h-64 w-full">
                            {/* Frontend */}
                            <div className="flex flex-col h-96 w-80 items-center ">  
@@ -219,6 +219,7 @@ const SkillsPage = () => {
                             <h1 className="text-white mx-4 text-base font-inter">Canva</h1>
                         </div>
                     </div>
+                    {/* Other */}
                     <div className=" h-64 w-80 flex flex-col items-center">
                         <div className="flex flex-col  bg-[hsla(194,85%,62%,0.2)] justify-center items-center backdrop-blur-[1.5px] h-16 w-[18rem]">
                             <h1 className=" font-inter text-xl font-normal text-white">Others</h1>

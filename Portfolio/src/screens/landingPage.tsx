@@ -31,9 +31,9 @@ const LandingPage = () => {
                 <h1 className="font-josefinSlab text-white font-[200] tab:text-4xl text-5xl">Software Engineer</h1>
               </div>
               <div className="flex flex-row justify-evenly w-52">
-                <div className="bg-git h-10 w-10 flex tab:h-8 tab:w-8 justify-center items-center">
+                <div className="bg-git h-10 w-10 flex justify-center items-center">
                   <a href="https://github.com/AshutoshBurman" target="_blank" rel="noopener noreferrer">
-                    <img src={Github} alt="Github-icon" className="h-7 w-7 tab:h-5 tab:w-5" />
+                    <img src={Github} alt="Github-icon" className="h-7 w-7 tab:h-6 tab:w-6" />
                   </a>
                 </div>
                 <div className="bg-linkedIn h-10 w-10 flex justify-center items-center">
