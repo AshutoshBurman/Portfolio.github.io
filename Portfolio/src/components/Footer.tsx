@@ -1,11 +1,11 @@
 import { useMediaQuery } from "react-responsive";
 
 const Footer = () => {
-    const isMobile = useMediaQuery({query: "(max-width: 660px)"})
-    const isTablet = useMediaQuery({query: "(max-width: 880px)"})
-    const is990 = useMediaQuery({query: "(max-width:990px)"})
-    const isDesktop = useMediaQuery({query: "(max-width: 1200px)"})
-    const is1400 = useMediaQuery({query: "(max-width: 1400px)"})
+    const isMobile = useMediaQuery({query: "(max-width: 660px)"});
+    const isTablet = useMediaQuery({query: "(max-width: 880px)"});
+    const is990 = useMediaQuery({query: "(max-width:990px)"});
+    const isDesktop = useMediaQuery({query: "(max-width: 1200px)"});
+    const is1400 = useMediaQuery({query: "(max-width: 1400px)"});
 
     return (
 

@@ -7,7 +7,7 @@ import frontend3 from '../assets/movie.png';
 import RN1 from '../assets/Company.mp4';
 import RN2 from '../assets/w.mp4';
 import RN3 from '../assets/video.mp4';
-// import RN3 from '../assets/kotlin.mp4';
+
 // ICONS
 import ReactIcon  from '../assets/ReactIcon.svg';
 import MongoDB from '../assets/MongoDB.svg';
@@ -26,16 +26,16 @@ const Project = () => {
 
 
   
-  const isMobile = useMediaQuery({query: "(max-width: 800px)"})
-  const is1150 = useMediaQuery({query: "(max-width:1150px)"})
+  const isMobile = useMediaQuery({query: "(max-width: 800px)"});
+  const is1150 = useMediaQuery({query: "(max-width:1150px)"});
   
   return (
     
     <div>
       {
       isMobile ? (
-        <div className='flex flex-col h-[390vh] w-full justify-evenly'>
-          <div id='project' className='scroll-mt-20 self-center mb-10'>
+        <div className='flex flex-col h-[405vh] w-full justify-evenly'>
+          <div id='project' className='scroll-mt-20 self-center mt-40 mb-10'>
             <Header text="PROJECT"/>
           </div>
           <div className="justify-center  items-center flex flex-row w-full text-white font-inter font-extralight mt-24 mb-6 ">
@@ -116,7 +116,7 @@ const Project = () => {
               <h1 className='select-none'>Mobile Application</h1>
             </div>
             <div>
-              <video className='relative max-h-[35rem] justify-center max-w-80' autoPlay loop>
+              <video className='relative max-h-[35rem] justify-center max-w-80' autoPlay loop muted>
                 <source src={RN1} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -129,7 +129,7 @@ const Project = () => {
               </div> 
             </div>
             <div className='my-4'>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop>
+              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
                   <source src={RN2} type="video/mp4"/>
                 </video>
                 <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -142,7 +142,7 @@ const Project = () => {
                 </div>
             </div>
             <div>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop>
+              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
                 <source src={RN3} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -278,7 +278,7 @@ const Project = () => {
 
           <div className="flex flex-row h-[50rem] gap-4">
             <div>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop>
+              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
                 <source src={RN1} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -291,7 +291,7 @@ const Project = () => {
               </div> 
             </div>
             <div>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop>
+              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
                 <source src={RN2} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -304,7 +304,7 @@ const Project = () => {
               </div>
             </div>
             <div>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop>
+              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
                 <source src={RN3} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -430,7 +430,7 @@ const Project = () => {
 
         <div className="grid grid-row-3 grid-flow-col justify-around h-full w-full max-w-[70rem]">
           <div >
-            <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop>
+            <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
               <source src={RN1} type="video/mp4"/>
             </video>
             <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -443,7 +443,7 @@ const Project = () => {
             </div>
           </div>
             <div>
-              <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop>
+              <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
                 <source src={RN2} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -457,7 +457,7 @@ const Project = () => {
             </div>
 
             <div>
-              <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop>
+              <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
                 <source src={RN3} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>

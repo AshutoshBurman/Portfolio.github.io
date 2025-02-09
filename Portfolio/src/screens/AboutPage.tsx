@@ -15,12 +15,12 @@ gsap.registerPlugin(ScrollTrigger);
 const AboutPage = () => {
 
 
-  const is400 =useMediaQuery({query: "(max-width: 400px"})
-  const is460 =useMediaQuery({query: "(max-width: 460px"})
-  const isMobile = useMediaQuery({query: "(max-width: 600px"})
-  const is705 = useMediaQuery({query: "(max-width: 705px"})
-  const isTab = useMediaQuery({query: "(max-width: 905px"})
-  const is1270 = useMediaQuery({query: "(max-width: 1270px)"})
+  const is400 =useMediaQuery({query: "(max-width: 400px"});
+  const is460 =useMediaQuery({query: "(max-width: 460px"});
+  const isMobile = useMediaQuery({query: "(max-width: 600px"});
+  const is705 = useMediaQuery({query: "(max-width: 705px"});
+  const isTab = useMediaQuery({query: "(max-width: 905px"});
+  const is1270 = useMediaQuery({query: "(min-width: 1270px)"});
 
 
 
@@ -49,7 +49,7 @@ const AboutPage = () => {
 
     <div>
     {is400?(
-        <div className='flex h-[138vh] overflow-hidden flex-col items-center justify-center'>
+        <div className='flex h-[138vh] overflow-hidden flex-col items-center justify-center select-none'>
             <div id="about" className=' mb-20 scroll-mt-20'>
               <Header text="ABOUT" />
             </div>
@@ -76,7 +76,7 @@ const AboutPage = () => {
     ):
     
     is460?(
-            <div className='flex h-[114vh] overflow-hidden flex-col items-center justify-center'>
+            <div className='flex h-[114vh] overflow-hidden flex-col items-center justify-center select-none'>
             <div id="about" className=' mb-20 scroll-mt-20'>
               <Header text="ABOUT" />
             </div>
@@ -103,7 +103,7 @@ const AboutPage = () => {
     ):
 
     isMobile? (
-      <div className='flex h-[100vh] overflow-hidden flex-col items-center justify-center'>
+      <div className='flex h-[100vh] overflow-hidden flex-col items-center justify-center select-none'>
       <div id="about" className=' mb-20 scroll-mt-20'>
         <Header text="ABOUT" />
       </div>
@@ -128,7 +128,7 @@ const AboutPage = () => {
       </div>
     ):
     is705?(
-      <div className='flex h-[78vh] overflow-hidden flex-col items-center justify-center'>
+      <div className='flex h-[78vh] overflow-hidden flex-col items-center justify-center select-none'>
       <div id="about" className=' mb-20 scroll-mt-20'>
         <Header text="ABOUT" />
       </div>
@@ -156,7 +156,7 @@ const AboutPage = () => {
     
     isTab?(
 
-    <div className='flex h-[80vh] overflow-hidden flex-col items-center justify-center'>
+    <div className='flex h-[80vh] overflow-hidden flex-col items-center justify-center select-none'>
       <div id="about" className=' mb-20 scroll-mt-20'>
         <Header text="ABOUT" />
       </div>
@@ -182,7 +182,7 @@ const AboutPage = () => {
     ):
 
     is1270?(
-      <div className='flex h-[75vh] overflow-hidden flex-col items-center justify-center'>
+      <div className='flex h-[75vh] overflow-hidden flex-col items-center justify-center select-none'>
            <div id="about" className=' mb-20 scroll-mt-20'>
              <Header text="ABOUT" />
            </div>
@@ -207,7 +207,7 @@ const AboutPage = () => {
        </div>
     )
      : (
-      <div className='flex h-[75vh] overflow-hidden flex-col items-center justify-center'>
+      <div className='flex h-[75vh] overflow-hidden flex-col items-center justify-center select-none'>
            <div id="about" className=' mb-20 scroll-mt-20'>
              <Header text="ABOUT" />
            </div>

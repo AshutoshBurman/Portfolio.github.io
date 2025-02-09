@@ -12,7 +12,7 @@ const LandingPage = () => {
       {/* Background Element */}
       <div className="background blur-sm"></div>
       {/* Main Content */}
-      <div id='A' className="w-[100vw] h-[100vh] items-start justify-center flex flex-row">
+      <div id='FrontPage' className="w-[100vw] h-[100vh] items-start justify-center flex flex-row select-none">
         <div className="h-[80vh] max-w-[60rem] tab:w-full mx-4 items-start justify-center flex flex-wrap">
           <div className="h-[80%] w-[60%] flex flex-col items-center justify-around left-0 absolute z-0">
             <div className="h-10 blur-3xl w-48 rotate-12 flex flex-col rounded-full top-60 left-60 bg-pinkish-purple  shadowEffect2"></div>
@@ -30,7 +30,7 @@ const LandingPage = () => {
                 </h1>
                 <h1 className="font-josefinSlab text-white font-[200] tab:text-4xl text-5xl">Software Engineer</h1>
               </div>
-              <div className="flex flex-row justify-center gap-4 w-52">
+              <div className="flex flex-row justify-evenly w-52">
                 <div className="bg-git h-10 w-10 flex tab:h-8 tab:w-8 justify-center items-center">
                   <a href="https://github.com/AshutoshBurman" target="_blank" rel="noopener noreferrer">
                     <img src={Github} alt="Github-icon" className="h-7 w-7 tab:h-5 tab:w-5" />
@@ -41,18 +41,19 @@ const LandingPage = () => {
                     <img src={LinkedIn} alt="LinkedIn-icon" className="h-5 w-5 tab:h-5 tab:w-5" />
                   </a>
                 </div>
-                {/* <div className="bg-stack h-10 w-10 flex justify-center items-center">
-                  <img src={Stack} alt="StackOverflow-icon" className="h-6 w-6 tab:h-5 tab:w-5" />
+                <div className=" h-10 w-10 flex justify-center items-center">  {/* TODO:bg-stack (for color)  */}
+                  {/* <img src={Stack} alt="StackOverflow-icon" className="h-6 w-6 tab:h-5 tab:w-5" /> */}
                 </div>
-                <div className="bg-medium h-10 w-10 flex justify-center items-center">
-                  <img src={Medium} alt="Medium-icon" className="h-7 w-7 tab:h-5 tab:w-5" />
-                </div> */}
+                <div className=" h-10 w-10 flex justify-center items-center"> {/* TODO:bg-medium (for color)  */}
+
+                  {/* <img src={Medium} alt="Medium-icon" className="h-7 w-7 tab:h-5 tab:w-5" /> */}
+                </div>
               </div>
             </div>
 
             <div className="relative flex justify-center items-center">
               <div className="absolute w-[10rem] h-[10rem] rounded-full z-0 tab:w-[10rem] imageShadow tab:h-[10rem]"></div>
-              <div className="relative flex justify-center tab:w-[17rem] tab:h-[17rem] overflow-hidden items-center z-10">
+              <div className="relative flex justify-center tab:w-[15rem] tab:h-[15rem] overflow-hidden items-center z-10">
                 <img src={IFrame} alt="ImageFrame" className="h-[25rem] w-[25rem]  overflow-hidden" />
               </div>
             </div>

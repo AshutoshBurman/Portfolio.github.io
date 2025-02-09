@@ -26,8 +26,8 @@ import Docker from '../assets/docker.svg';
 
 const SkillsPage = () => {
 
-    const isMobile = useMediaQuery({query: "(max-width: 660px"})
-    const is1130 = useMediaQuery({query: "(max-width: 1130px)"})
+    const isMobile = useMediaQuery({query: "(max-width: 660px"});
+    const is1130 = useMediaQuery({query: "(max-width: 1130px)"});
 
   return (
     <div>
