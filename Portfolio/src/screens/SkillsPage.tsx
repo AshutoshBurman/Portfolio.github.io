@@ -32,7 +32,7 @@ const SkillsPage = () => {
   return (
     <div>
         {isMobile? (
-            <div className="flex select-none min-h-[100vh] flex-col justify-center items-center">
+            <div className="flex select-none min-h-[100vh] pt-20 flex-col justify-center items-center">
                 {/* header */}
                 <div id='skills' className='scroll-mt-20 mt-20'>
                     <Header text="SKILLS" />
@@ -254,7 +254,7 @@ const SkillsPage = () => {
 
         ): 
         is1130 ? (
-            <div className=" flex flex-col select-none min-h-[150vh] w-full justify-center items-center">
+            <div className=" flex flex-col select-none min-h-[150vh] pb-20 pt-20 w-full justify-center items-center">
                 <div className="flex flex-col  h-full max-w-[70rem] justify-center items-center">
                     {/* header */}
                     <div id='skills' className='scroll-mt-20'>
@@ -499,15 +499,15 @@ const SkillsPage = () => {
             </div>
         ):(
 
-        <div className=" select-none flex flex-col  min-h-[120vh] w-full justify-start items-center">
-        <div className="flex flex-col  min-h-[80vh] max-w-[70rem] justify-between items-center">
+        <div className=" select-none flex flex-col  min-h-[60rem] mb-10 w-full justify-start items-center">
+        <div className="flex flex-col relative max-w-[70rem] justify-between items-center">
             {/* header */}
-            <div id='skills' className='scroll-mt-20 mt-40'>
+            <div id='skills' className='scroll-mt-20 pt-20'>
                 <Header text="SKILLS" />
             </div>
            
-           <div className=" flex flex-col h-[50vh] w-[70rem] relative mt-28 items-center">
-            <div className="flex flex-col justify- h-full w-full">
+           <div className=" flex flex-col min-h-[20rem] w-[70rem] relative mt-28 items-center">
+            <div className="flex flex-col h-full w-full">
                 <div className="flex flex-row h-60 z-50 w-[75%] top-10 absolute items-start self-end justify-between">
                     {/* Database */}
 
@@ -564,7 +564,7 @@ const SkillsPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row h-60 min-w-[54rem] z-10 absolute justify-between  self-start items-start">
+                <div className="flex flex-row min-h-60 min-w-[54rem] z-10 absolute justify-between  self-start items-start">
 
                         {/* Frontend */}
                     <div className="flex flex-col h-96 w-80 ">  

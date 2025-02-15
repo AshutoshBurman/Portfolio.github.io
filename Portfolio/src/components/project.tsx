@@ -4,9 +4,9 @@ import fs from '../assets/fs.png';
 import frontend2 from '../assets/two.png';
 import frontend3 from '../assets/movie.png';
 
-import RN1 from '../assets/Company.mp4';
-import RN2 from '../assets/w.mp4';
-import RN3 from '../assets/video.mp4';
+import company from '../assets/Company.mp4';
+import weather from '../assets/w.mp4';
+import movie from '../assets/video.mp4';
 
 // ICONS
 import ReactIcon  from '../assets/ReactIcon.svg';
@@ -117,7 +117,7 @@ const Project = () => {
             </div>
             <div>
               <video className='relative max-h-[35rem] justify-center max-w-80' autoPlay loop muted>
-                <source src={RN1} type="video/mp4"/>
+                <source src={company} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                   <h1 className='text-white font-inter font-light '>Company App</h1>
@@ -130,7 +130,7 @@ const Project = () => {
             </div>
             <div className='my-4'>
               <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
-                  <source src={RN2} type="video/mp4"/>
+                  <source src={weather} type="video/mp4"/>
                 </video>
                 <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                   <h1 className='text-white font-inter font-light '>Weather App</h1>
@@ -143,7 +143,7 @@ const Project = () => {
             </div>
             <div>
               <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
-                <source src={RN3} type="video/mp4"/>
+                <source src={movie} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                 <h1 className='text-white font-inter font-light '>Movie App</h1>
@@ -151,8 +151,8 @@ const Project = () => {
                   <img src={TypeScripe} alt="" className="h-8 w-8 mx-3 relative" />
                   <img src={Expowhite} alt="" className="h-7 w-7 mx-3 relative" />
                   <img src={Node} alt="" className="h-8 w-8 mx-3 relative" />
-                </div> 
-              </div>
+                </div>  
+            </div>
             </div>
           </div>
           <div className="flex flex-col justify-center">
@@ -161,7 +161,7 @@ const Project = () => {
             </div>
             <div>
               <div className=" max-w-96 ">
-                <div className="relative h-ful w-full group">
+                <div className="relative h-full w-full group">
                   <img
                     src={fs}
                     className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-90 group-hover:blur-sm"
@@ -174,7 +174,7 @@ const Project = () => {
                   </div>
                 </div>
                 <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
-                  <h1 className='text-white font-inter font-light '>Todo App</h1>
+                  <h1 className='text-white font-inter font-light '>To-do App</h1>
                   <div className='flex flex-row justify-center items-center w-full'>
                     <img src={CSS} alt="" className="h-8 w-8 mx-3 relative" />
                     <img src={JavaScript} alt="" className="h-8 w-8 mx-3 relative" />
@@ -279,7 +279,7 @@ const Project = () => {
           <div className="flex flex-row min-h-[40rem] gap-4">
             <div>
               <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
-                <source src={RN1} type="video/mp4"/>
+                <source src={company} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                   <h1 className='text-white font-inter font-light '>Company App</h1>
@@ -292,7 +292,7 @@ const Project = () => {
             </div>
             <div>
               <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
-                <source src={RN2} type="video/mp4"/>
+                <source src={weather} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                 <h1 className='text-white font-inter font-light '>Weather App</h1>
@@ -305,7 +305,7 @@ const Project = () => {
             </div>
             <div>
               <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
-                <source src={RN3} type="video/mp4"/>
+                <source src={movie} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                 <h1 className='text-white font-inter font-light '>Movie App</h1>
@@ -323,7 +323,7 @@ const Project = () => {
             <h1 className='select-none'>Full Stack</h1>
           </div>
           <div className='flex flex-row h-[15rem] justify-center'>
-          <div className="max-h-[20vh]">
+          <div className="max-h-[30vh]">
               <div className="relative h-full w-full group">
                 <img
                   src={fs}
@@ -431,7 +431,7 @@ const Project = () => {
         <div className="grid grid-row-3 grid-flow-col justify-around h-full w-full max-w-[70rem]">
           <div >
             <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
-              <source src={RN1} type="video/mp4"/>
+              <source src={company} type="video/mp4"/>
             </video>
             <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                 <h1 className='text-white font-inter font-light '>Company App</h1>
@@ -444,7 +444,7 @@ const Project = () => {
           </div>
             <div>
               <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
-                <source src={RN2} type="video/mp4"/>
+                <source src={weather} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                 <h1 className='text-white font-inter font-light '>Weather App</h1>
@@ -458,7 +458,7 @@ const Project = () => {
 
             <div>
               <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
-                <source src={RN3} type="video/mp4"/>
+                <source src={movie} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
                 <h1 className='text-white font-inter font-light '>Movie App</h1>
