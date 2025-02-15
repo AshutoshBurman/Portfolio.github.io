@@ -14,7 +14,7 @@ const LandingPage = () => {
       {/* Main Content */}
       <div id='FrontPage' className="w-[100vw]  min-h-[100vh] items-start justify-center flex flex-row select-none">
         <div className="min-h-[80vh] max-w-[60rem] tab:w-full mx-4 items-start justify-center flex flex-wrap">
-          <div className="h-[80%] w-[60%] flex flex-col items-center justify-around left-0 absolute z-0">
+          <div className="h-[80%] w-[60%] sm:hidden flex flex-col items-center justify-around left-0 absolute z-0">
             <div className="h-10 blur-3xl w-48 rotate-12 flex flex-col rounded-full top-60 left-60 bg-pinkish-purple  shadowEffect2"></div>
             <div className="h-20 blur-3xl w-36 bg-electric-purple flex flex-col top-20 left-16 shadowEffect3"></div>
             <div className="h-0 w-44 flex blur-3xl flex-col rounded-full self-center absolute top-0 left-0 bg-royal-blue  shadowEffect"></div>

@@ -194,7 +194,7 @@ const Project = () => {
           <div id='project' className='scroll-mt-20 mb-12 mt-80'>
             <Header text="PROJECT"/>
           </div>
-          <div className="flex flex-col h-[70rem] max-w-[50rem] mx-4">
+          <div className="flex flex-col min-h-[40rem] max-w-[50rem] mx-4">
                 <div className="justify-center  items-center flex flex-row w-full text-white font-inter font-extralight mb-8 mt-20 ">
                   <h1 className='select-none'>Frontend Projects</h1>
                 </div>
@@ -276,7 +276,7 @@ const Project = () => {
             <h1 className='select-none'>Mobile Application</h1>
           </div>
 
-          <div className="flex flex-row h-[50rem] gap-4">
+          <div className="flex flex-row min-h-[40rem] gap-4">
             <div>
               <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
                 <source src={RN1} type="video/mp4"/>
@@ -322,7 +322,7 @@ const Project = () => {
           <div className="justify-center  items-center flex flex-row w-full text-white font-inter font-extralight  mt-20 mb-10">
             <h1 className='select-none'>Full Stack</h1>
           </div>
-          <div className='flex flex-row h-[30rem] justify-center'>
+          <div className='flex flex-row h-[15rem] justify-center'>
           <div className="max-h-[20vh]">
               <div className="relative h-full w-full group">
                 <img

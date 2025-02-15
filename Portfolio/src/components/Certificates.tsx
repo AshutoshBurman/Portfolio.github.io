@@ -66,10 +66,10 @@ const Certificates= () => {
                     </motion.div>
                 </div>
             </div>
-            <div className='h-10 w-10 flex flex-col button-footer self-end mr-14 mt-20 justify-center items-center '>
+            <div className='h-10 w-10 sm:h-8 sm:w-8 flex flex-col button-footer self-end mr-14 mt-20 justify-center items-center '>
                 <a href="#FrontPage">
-                    <div className='h-10 w-10 justify-center items-center flex flex-row '>
-                        <img src={Arrow} className='absolute h-7' alt="move to the front page" />
+                    <div className='sm:h-8 sm:w-8 h-10 w-10 justify-center items-center flex flex-row '>
+                        <img src={Arrow} className='absolute h-7 sm:h-5' alt="move to the front page" />
                     </div>
                 </a>
             </div>
