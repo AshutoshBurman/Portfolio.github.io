@@ -42,7 +42,7 @@ const Certificates= () => {
   return (
     <div>
         {is1292 ? (
-        <div className='h-[100vh] justify-around select-none mx-auto items-center flex flex-col '>
+        <div className='min-h-[100vh] justify-around select-none mx-auto items-center flex flex-col '>
             <div className="flex flex-col h-full w-[80%] justify-evenly items-center">
                 <div id='certificates' className='scroll-mt-20 mt-40 mb-28'>
                     <Header text="CERTIFICATES"/>
@@ -75,7 +75,7 @@ const Certificates= () => {
             </div>
         </div>
         ) : (
-        <div className='h-[70vh] w-full select-none justify-around  items-center flex flex-col'>
+        <div className='min-h-[90vh] w-full select-none justify-around  items-center flex flex-col'>
             <div id='certificates' className='scroll-mt-20 mt-40 mb-20'>
                 <Header text="CERTIFICATES"/>
             </div>            

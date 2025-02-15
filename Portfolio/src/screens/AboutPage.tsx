@@ -18,6 +18,7 @@ const AboutPage = () => {
   const is705 = useMediaQuery({ query: "(max-width: 705px)" });
   const isTab = useMediaQuery({ query: "(max-width: 905px)" });
   const is1270 = useMediaQuery({ query: "(max-width: 1270px)" });
+  const is720 = useMediaQuery({ query: "(max-height: 720px)" });
 
   const textRef = useRef(null);
 
@@ -46,20 +47,22 @@ const AboutPage = () => {
     if (is705) return 'h-[95vh]';
     if (isTab) return 'h-[90vh]';
     if (is1270) return 'h-[80vh]';
-    return 'h-[80vh]'; // default height
+    if (is720) return 'h-[120vh]';
+    return 'h-[100vh]';
   };
 
   const containerHeight = () => {
    
-    if (is400) return 'h-[15rem]]';
-    if (is460) return 'h-[42rem]';
-    if (is540) return 'h-[38rem]';
-    if (isMobile) return 'h-[33rem]';
-    if (is705) return 'h-[35rem]';
-    if (isTab) return 'h-[35rem]';
-    if (is1270) return 'h-[35rem]';
+    if (is400) return 'h-[22.22vh]';
+    if (is460) return 'h-[62.22vh]';
+    if (is540) return 'h-[56.30vh]';
+    if (isMobile) return 'h-[48.89vh]';
+    if (is705) return 'h-[51.85vh]';
+    if (isTab) return 'h-[51.85vh]';
+    if (is1270) return 'h-[51.85vh]';
+    if (is720) return 'h-[55vh]';
 
-    return 'h-[25rem]';
+    return 'h-[37.04vh]';
   }
 
   const getFontSize = () => {
@@ -70,11 +73,11 @@ const AboutPage = () => {
   }
 
   return (
-    <div className={`flex ${getHeight()} overflow-hidden flex-col items-center justify-center select-none`}>
+    <div className={`flex min-h-[100vh] overflow-hidden flex-col items-center justify-center select-none`}>
       <div id="about" className='mb-24 scroll-mt-20'>
         <Header text="ABOUT" />
       </div>
-      <div className={`flex flex-col bg-[hsl(0,0%,0%)] ${containerHeight()} mx-6 text-center gap-y-10 max-w-[80rem] text-rose overflow-hidden justify-center items-center px-12 py-16 font-inter font-extralight ${getFontSize()}`}>
+      <div className={`flex flex-col bg-[hsl(0,0%,0%)] min-h-[38vh] mx-6 text-center gap-y-10 max-w-[80rem] text-rose overflow-hidden justify-center items-center px-12 py-16 font-inter font-extralight ${getFontSize()}`}>
         <div className='flex flex-col h-full w-full justify-center'>
           <div ref={textRef} className='flex flex-col justify-center mt-10 h-full w-full'>
             <p>I am a student at JAMK University of Applied Sciences in Finland, pursuing a degree in Information and Communication Technology, with a passion for exploring innovative technologies and their potential to transform and enhance our daily lives.</p>

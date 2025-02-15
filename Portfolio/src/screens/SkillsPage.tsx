@@ -38,7 +38,7 @@ const SkillsPage = () => {
                     <Header text="SKILLS" />
                 </div>               
                 <div className=" grid grid-rows-8 mt-14 justify-center gap-2 grid-flow-col">
-                    <div className=" h-64 w-full">
+                    <div className=" min-h-64 w-full">
                            {/* Frontend */}
                            <div className="flex flex-col h-96 w-80 items-center ">  
                                 <div className="flex flex-col bg-[hsla(333,93%,56%,0.2)] justify-center items-center backdrop-blur-[1.5px] h-16 w-[18rem]">
@@ -254,13 +254,13 @@ const SkillsPage = () => {
 
         ): 
         is1130 ? (
-            <div className=" flex flex-col select-none  h-[155vh] w-full justify-start items-center">
-            <div className="flex flex-col  h-[100vh] max-w-[70rem] justify-center items-center">
+            <div className=" flex flex-col select-none  min-h-[155vh] w-full justify-start items-center">
+            <div className="flex flex-col  min-h-[100vh] max-w-[70rem] justify-center items-center">
                 {/* header */}
                 <div id='skills' className='scroll-mt-20 mt-80'>
                     <Header text="SKILLS" />
                 </div>
-               <div className=" flex flex-col  h-[100vh] max-w-[70rem]  relative top-28 justify-normal items-center">
+               <div className=" flex flex-col  min-h-[100vh] max-w-[70rem]  relative top-28 justify-normal items-center">
                 <div className="flex flex-col  justify-center h-full w-full relative">
                     <div className="flex flex-col h-96 z-50 w-full  left-36 relative space-y-10 items-center justify-between">
                         {/* Database */}
@@ -499,8 +499,8 @@ const SkillsPage = () => {
             </div>
         ):(
 
-        <div className=" select-none flex flex-col  h-[120vh] w-full justify-start items-center">
-        <div className="flex flex-col  h-[80vh] max-w-[70rem] justify-between items-center">
+        <div className=" select-none flex flex-col  min-h-[120vh] w-full justify-start items-center">
+        <div className="flex flex-col  min-h-[80vh] max-w-[70rem] justify-between items-center">
             {/* header */}
             <div id='skills' className='scroll-mt-20 mt-40'>
                 <Header text="SKILLS" />

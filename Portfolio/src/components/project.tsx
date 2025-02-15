@@ -34,7 +34,7 @@ const Project = () => {
     <div>
       {
       isMobile ? (
-        <div className='flex flex-col h-[405vh] w-full justify-evenly'>
+        <div className='flex flex-col min-h-[405vh] w-full justify-evenly'>
           <div id='project' className='scroll-mt-20 self-center mt-40 mb-10'>
             <Header text="PROJECT"/>
           </div>
@@ -44,7 +44,7 @@ const Project = () => {
 
           <div className="flex flex-col max-w-96  gap-4">
             <div className="">
-              <div className="relative h-52 w-full group">
+              <div className="relative w-full group">
                 <img
                   src={frontend1}
                   className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
@@ -190,8 +190,8 @@ const Project = () => {
 
       ):
       is1150 ? (
-        <div className='flex flex-col h-[235vh] w-full items-center'>
-          <div id='project' className='scroll-mt-20 mb-12 mt-40'>
+        <div className='flex flex-col min-h-[235vh] w-full items-center'>
+          <div id='project' className='scroll-mt-20 mb-12 mt-80'>
             <Header text="PROJECT"/>
           </div>
           <div className="flex flex-col h-[70rem] max-w-[50rem] mx-4">
@@ -352,7 +352,7 @@ const Project = () => {
         </div>
       )
     :(
-      <div className='flex flex-col h-full w-full  items-center justify-around'>
+      <div className='flex flex-col w-full  items-center justify-around'>
         <div id='project' className='scroll-mt-20 mb-20'>
           <Header text="PROJECT"/>
         </div>
