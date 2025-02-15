@@ -13,12 +13,12 @@ gsap.registerPlugin(ScrollTrigger);
 const AboutPage = () => {
   const is400 = useMediaQuery({ query: "(max-width: 400px)" });
   const is460 = useMediaQuery({ query: "(max-width: 460px)" });
-  const is540 = useMediaQuery({ query: "(max-width: 540px)" });
+  // const is540 = useMediaQuery({ query: "(max-width: 540px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
-  const is705 = useMediaQuery({ query: "(max-width: 705px)" });
-  const isTab = useMediaQuery({ query: "(max-width: 905px)" });
-  const is1270 = useMediaQuery({ query: "(max-width: 1270px)" });
-  const is720 = useMediaQuery({ query: "(max-height: 720px)" });
+  // const is705 = useMediaQuery({ query: "(max-width: 705px)" });
+  // const isTab = useMediaQuery({ query: "(max-width: 905px)" });
+  // const is1270 = useMediaQuery({ query: "(max-width: 1270px)" });
+  // const is720 = useMediaQuery({ query: "(max-height: 720px)" });
 
   const textRef = useRef(null);
 
@@ -40,30 +40,30 @@ const AboutPage = () => {
     }
   }, { scope: textRef });
 
-  const getHeight = () => {
-    if (is400) return 'h-[126vh]';
-    if (is460) return 'h-[122vh]';
-    if (isMobile) return 'h-[100vh]';
-    if (is705) return 'h-[95vh]';
-    if (isTab) return 'h-[90vh]';
-    if (is1270) return 'h-[80vh]';
-    if (is720) return 'h-[120vh]';
-    return 'h-[100vh]';
-  };
+  // const getHeight = () => {
+  //   if (is400) return 'h-[126vh]';
+  //   if (is460) return 'h-[122vh]';
+  //   if (isMobile) return 'h-[100vh]';
+  //   if (is705) return 'h-[95vh]';
+  //   if (isTab) return 'h-[90vh]';
+  //   if (is1270) return 'h-[80vh]';
+  //   if (is720) return 'h-[120vh]';
+  //   return 'h-[100vh]';
+  // };
 
-  const containerHeight = () => {
+  // const containerHeight = () => {
    
-    if (is400) return 'h-[22.22vh]';
-    if (is460) return 'h-[62.22vh]';
-    if (is540) return 'h-[56.30vh]';
-    if (isMobile) return 'h-[48.89vh]';
-    if (is705) return 'h-[51.85vh]';
-    if (isTab) return 'h-[51.85vh]';
-    if (is1270) return 'h-[51.85vh]';
-    if (is720) return 'h-[55vh]';
+  //   if (is400) return 'h-[22.22vh]';
+  //   if (is460) return 'h-[62.22vh]';
+  //   if (is540) return 'h-[56.30vh]';
+  //   if (isMobile) return 'h-[48.89vh]';
+  //   if (is705) return 'h-[51.85vh]';
+  //   if (isTab) return 'h-[51.85vh]';
+  //   if (is1270) return 'h-[51.85vh]';
+  //   if (is720) return 'h-[55vh]';
 
-    return 'h-[37.04vh]';
-  }
+  //   return 'h-[37.04vh]';
+  // }
 
   const getFontSize = () => {
     if (is400) return 'text-base ';
