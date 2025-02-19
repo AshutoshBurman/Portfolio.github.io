@@ -13,7 +13,7 @@ const Footer = () => {
             {isMobile? (
                  <div className="flex h-[30vh] w-full overflow-hidden flex-col relative justify-end items-center">
                  <div className="bg-white/0 overflow-hidden backdrop-blur-sm h-8 max-w-[80vw] absolute justify-center items-center flex-row flex bottom-3 z-10">
-                     <p className="text-white select-none font-thin text-xs font-inter">Copyright 2024 © Ashutosh Burman. All rights reserved.</p>
+                     <p className="text-white select-none font-thin text-xs font-inter">Copyright 2025 © Ashutosh Burman. All rights reserved.</p>
                  </div>
      
                  <div className="footer h-[10rem] overflow-hidden flex flex-row justify-between items-end w-full">
@@ -95,7 +95,7 @@ const Footer = () => {
             ) : isTablet ? (
                 <div className="flex h-[30vh] w-full flex-col relative justify-end items-center">
                 <div className="bg-white/0 backdrop-blur-sm h-10 min-w-[20rem] absolute justify-center items-center flex-row flex bottom-3 z-10">
-                    <p className="text-white select-none font-thin text-xs font-inter">Copyright 2024 © Ashutosh Burman. All rights reserved.</p>
+                    <p className="text-white select-none font-thin text-xs font-inter">Copyright 2025 © Ashutosh Burman. All rights reserved.</p>
                 </div>
     
                 <div className="footer h-[12rem] overflow-hidden flex flex-row justify-evenly items-end w-full">
@@ -205,7 +205,7 @@ const Footer = () => {
             ) : is990 ?  (
                 <div className="flex h-[30vh] w-full flex-col relative justify-end items-center">
                 <div className="bg-white/0 backdrop-blur-sm h-10 min-w-[26rem] absolute justify-center items-center flex-row flex bottom-5 z-10">
-                    <p className="text-white select-none font-extralight text-sm font-inter">Copyright 2024 © Ashutosh Burman. All rights reserved.</p>
+                    <p className="text-white select-none font-extralight text-sm font-inter">Copyright 2025 © Ashutosh Burman. All rights reserved.</p>
                 </div>
     
                 <div className="footer h-[12rem] overflow-hidden flex flex-row justify-evenly items-end w-full">
@@ -339,7 +339,7 @@ const Footer = () => {
 
                 <div className="flex h-[30vh] w-full flex-col relative justify-end items-center">
                 <div className="bg-white/0 backdrop-blur-sm h-10 min-w-[26rem] absolute justify-center items-center flex-row flex bottom-5 z-10">
-                    <p className="text-white select-none font-extralight text-sm font-inter">Copyright 2024 © Ashutosh Burman. All rights reserved.</p>
+                    <p className="text-white select-none font-extralight text-sm font-inter">Copyright 2025 © Ashutosh Burman. All rights reserved.</p>
                 </div>
     
                 <div className="footer h-[12rem] overflow-hidden flex flex-row justify-evenly items-end w-full">
@@ -493,7 +493,7 @@ const Footer = () => {
             ): is1400 ? (
                 <div className="flex h-[30vh] w-full flex-col relative justify-end items-center">
                 <div className="bg-white/0 backdrop-blur-sm h-10 min-w-[26rem] absolute justify-center items-center flex-row flex bottom-5 z-10">
-                    <p className="text-white select-none font-extralight text-sm font-inter">Copyright 2024 © Ashutosh Burman. All rights reserved.</p>
+                    <p className="text-white select-none font-extralight text-sm font-inter">Copyright 2025 © Ashutosh Burman. All rights reserved.</p>
                 </div>
     
                 <div className="footer h-[12rem] overflow-hidden flex flex-row justify-evenly items-end w-full">
@@ -636,7 +636,7 @@ const Footer = () => {
             ) :(
                     <div className="flex h-[30vh] w-full flex-col relative justify-end items-center">
                     <div className="bg-white/0 backdrop-blur-sm h-10 min-w-[26rem] absolute justify-center items-center flex-row flex bottom-5 z-10">
-                        <p className="text-white select-none font-extralight text-sm font-inter">Copyright 2024 © Ashutosh Burman. All rights reserved.</p>
+                        <p className="text-white select-none font-extralight text-sm font-inter">Copyright 2025 © Ashutosh Burman. All rights reserved.</p>
                     </div>
         
                     <div className="footer h-[12rem] overflow-hidden flex flex-row justify-evenly items-end w-full">
