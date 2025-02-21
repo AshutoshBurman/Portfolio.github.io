@@ -47,7 +47,7 @@ const Project = () => {
               <div className="relative w-full group">
                 <img
                   src={frontend1}
-                  className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
+                  className="object-fit h-full w-full opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
                   alt="Project Picture"
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -71,7 +71,7 @@ const Project = () => {
                 <div className="relative h-full w-full group">
                   <img
                     src={frontend3}
-                    className="object-cover h-full w-full bg-white"
+                    className="object-cover h-full w-full"
                     alt="Project Picture"
                   />
                 </div>
@@ -85,12 +85,12 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className=" bg-white self-center">
+            <div className=" self-center">
               <div className=" max-h-[10rem] max-w-[24rem]">
                     <div className="relative h-full w-full group">
                       <img
                         src={frontend2}
-                        className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
+                        className="object-fit h-full w-full opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
                         alt="Project Picture"
                       />
                       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -129,7 +129,7 @@ const Project = () => {
               </div> 
             </div>
             <div className='my-4'>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
+              <video className='relative max-h-[35rem] justify-center w-full' autoPlay loop muted>
                   <source src={weather} type="video/mp4"/>
                 </video>
                 <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -142,7 +142,7 @@ const Project = () => {
                 </div>
             </div>
             <div>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
+              <video className='relative max-h-[35rem] justify-center  w-full' autoPlay loop muted>
                 <source src={movie} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -164,7 +164,7 @@ const Project = () => {
                 <div className="relative h-full w-full group">
                   <img
                     src={fs}
-                    className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-90 group-hover:blur-sm"
+                    className="object-fit h-full w-full opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-90 group-hover:blur-sm"
                     alt="Project Picture"
                   />
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -204,7 +204,7 @@ const Project = () => {
                 <div className="relative h-full w-full group">
                 <img
                   src={frontend1}
-                  className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
+                  className="object-fit h-full w-full opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
                   alt="Project Picture"
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -229,7 +229,7 @@ const Project = () => {
                 <div className="relative h-full w-full group">
                   <img
                     src={frontend3}
-                    className="object-cover h-full w-full bg-white"
+                    className="object-cover h-full w-full"
                     alt="Project Picture"
                   />
                 </div>
@@ -251,7 +251,7 @@ const Project = () => {
                   <div className="relative h-full w-full group">
                     <img
                       src={frontend2}
-                      className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
+                      className="object-fit h-full w-full opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
                       alt="Project Picture"
                     />
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -278,7 +278,7 @@ const Project = () => {
 
           <div className="flex flex-row min-h-[40rem] gap-4">
             <div>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
+              <video className='relative max-h-[35rem] justify-center w-full' autoPlay loop muted>
                 <source src={company} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -291,7 +291,7 @@ const Project = () => {
               </div> 
             </div>
             <div>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
+              <video className='relative max-h-[35rem] justify-center w-full' autoPlay loop muted>
                 <source src={weather} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -304,7 +304,7 @@ const Project = () => {
               </div>
             </div>
             <div>
-              <video className='relative max-h-[35rem] justify-center bg-white w-full' autoPlay loop muted>
+              <video className='relative max-h-[35rem] justify-center w-full' autoPlay loop muted>
                 <source src={movie} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -327,7 +327,7 @@ const Project = () => {
               <div className="relative h-full w-full group">
                 <img
                   src={fs}
-                  className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-90 group-hover:blur-sm"
+                  className="object-fit h-full w-full opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-90 group-hover:blur-sm"
                   alt="Project Picture"
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -365,7 +365,7 @@ const Project = () => {
             <div className="relative h-full w-full group">
               <img
                 src={frontend1}
-                className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
+                className="object-fit h-full w-full opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
                 alt="Project Picture"
               />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -387,7 +387,7 @@ const Project = () => {
               <div className="relative h-full w-full group">
                 <img
                   src={frontend3}
-                  className="object-cover h-full w-full bg-white"
+                  className="object-cover h-full w-full"
                   alt="Project Picture"
                 />
               </div>
@@ -404,7 +404,7 @@ const Project = () => {
               <div className="relative h-full w-full group">
                 <img
                   src={frontend2}
-                  className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
+                  className="object-fit h-full w-full opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-80 group-hover:blur-sm"
                   alt="Project Picture"
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
@@ -430,7 +430,7 @@ const Project = () => {
 
         <div className="grid grid-row-3 grid-flow-col justify-around h-full w-full max-w-[70rem]">
           <div >
-            <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
+            <video className='relative max-h-[45rem] justify-center  w-full' autoPlay loop muted>
               <source src={company} type="video/mp4"/>
             </video>
             <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -443,7 +443,7 @@ const Project = () => {
             </div>
           </div>
             <div>
-              <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
+              <video className='relative max-h-[45rem] justify-center w-full' autoPlay loop muted>
                 <source src={weather} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -457,7 +457,7 @@ const Project = () => {
             </div>
 
             <div>
-              <video className='relative max-h-[45rem] justify-center bg-white w-full' autoPlay loop muted>
+              <video className='relative max-h-[45rem] justify-center  w-full' autoPlay loop muted>
                 <source src={movie} type="video/mp4"/>
               </video>
               <div className='bg-gradient-to-b from-[hsla(0,0%,0%,0.8)] to-[hsla(0,0%,0%,0.1)] h-20 justify-center flex flex-col items-center w-full'>
@@ -480,7 +480,7 @@ const Project = () => {
               <div className="relative h-full w-full group">
                 <img
                   src={fs}
-                  className="object-fit h-full w-full bg-white opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-90 group-hover:blur-sm"
+                  className="object-fit h-full w-full  opacity-100 transition-all duration-500 ease-in-out group-hover:opacity-90 group-hover:blur-sm"
                   alt="Project Picture"
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
