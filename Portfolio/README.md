@@ -1,3 +1,12 @@
+## Deploy 
+```
+- update website 
+- remove dist folder 
+- run npm run deploy
+- in github, under setting/pages update domain name and it is ready and deployed  
+```
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
